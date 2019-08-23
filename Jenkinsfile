@@ -6,16 +6,12 @@ pipeline {
             steps {
                 echo 'Building..'
                 checkout scm
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+                    stage('Setup & Build Ionic') {
+                                        sh '''#!/bin/bash
+
+                                            echo "java -version"
+                                            java -version
+                    }
             }
         }
     }
