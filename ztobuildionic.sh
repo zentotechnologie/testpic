@@ -7,11 +7,6 @@
  $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-28"
  yes | $ANDROID_HOME/bin/sdkmanager --licenses
 
- $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-26"
- yes | $ANDROID_HOME/bin/sdkmanager --licenses
-
-  $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-27"
- yes | $ANDROID_HOME/bin/sdkmanager --licenses
 export PATH=$PATH:$ANDROID_HOME
 
  echo "npm install"
