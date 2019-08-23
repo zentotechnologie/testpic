@@ -21,11 +21,13 @@ export PATH=$PATH:$ANDROID_HOME
  echo "npm install"
  npm install
 
+  echo "npm install cordova"
+ npm install cordova
+
  echo "npm install ionic"
  npm install ionic
 
-  echo "npm install cordova"
- npm install cordova
+
 
 
 echo "npm run ionic info"
