@@ -6,6 +6,8 @@ pipeline {
             steps {
                 echo 'Building..'
                 checkout scm
+                }
+            steps {
                 echo "java -version"
                 java -version
             }
