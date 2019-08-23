@@ -4,9 +4,9 @@
  echo "Setup ANDROID_HOME"
  export ANDROID_HOME="./androidjdk/tools"
  export ANDROID_SDK_ROOT="./androidjdk/tools"
- export GRADLE_HOME="./gradle"
+ export GRADLE_HOME="/var/lib/jenkins/workspace/readjenkinsfile/gradle"
  export GRADLE_USER_HOME="./gradle"
- export GRADLE_HOME_PATH="./gradle/bin"
+ export GRADLE_HOME_PATH="/var/lib/jenkins/workspace/readjenkinsfile/gradle/bin"
 
 
  export PATH=$PATH:$GRADLE_HOME_PATH
