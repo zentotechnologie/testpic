@@ -24,4 +24,4 @@ npm run ionic cordova platform add android@8.0.0 --debug --verbose
 
 echo "npm run ionic cordova requirements --debug --verbose"
 echo $ANDROID_HOME
-npm run ionic cordova requirements --debug --verbose
+#npm run ionic cordova requirements --debug --verbose
