@@ -7,7 +7,8 @@ pipeline {
                 echo 'Building..'
                 checkout scm
                  echo "java -version"
-                 sh 'ztobuildionic.sh'
+                 sh './ztobuildionic.sh'
+
                 }
         }
     }
