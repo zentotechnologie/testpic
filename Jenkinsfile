@@ -7,8 +7,6 @@ pipeline {
                 echo 'Building..'
                 checkout scm
                     stage('Setup & Build Ionic') {
-                                        sh '''#!/bin/bash
-
                                             echo "java -version"
                                             java -version
                     }
