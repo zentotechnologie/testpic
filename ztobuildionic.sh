@@ -3,7 +3,7 @@
  java -version
  echo "Setup ANDROID_HOME"
  export ANDROID_HOME="./androidjdk/tools"
- $ANDROID_HOME/android --help --no-ui
+ $ANDROID_HOME/tools/bin/sdkmanager --help
 
  #echo "npm install"
  #npm install
