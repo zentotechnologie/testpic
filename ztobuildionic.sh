@@ -8,6 +8,9 @@
  echo "npm install ionic"
  npm install ionic
 
+  echo "npm install cordova"
+ npm install cordova
+
 
 echo "npm run ionic info"
 npm run ionic info
