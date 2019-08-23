@@ -4,8 +4,7 @@
                     deleteDir()
                 }
                 stage('Checkout') {
-		    from starter template
-                    checkout scm
+		            checkout scm
                 }
 
 
