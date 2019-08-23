@@ -8,5 +8,5 @@
  export GRADLE_HOME=./gradle
  export GRADLE_USER_HOME=./gradle
  echo "GRADLE VERSION"
- echo gradle -v
+gradle -v
 
