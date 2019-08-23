@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Clean project"
-                deleteDir()
+
                 echo 'Building..'
                 checkout scm
                  echo "java -version"
