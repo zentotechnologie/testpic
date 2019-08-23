@@ -1,4 +1,4 @@
-try {
+
  stage('Init') {
 		    from starter template
                     deleteDir()
@@ -8,8 +8,4 @@ try {
                     checkout scm
                 }
 
-}
-catch(Exception e) {
-                       echo e.getMessage()
-                       throw e
-                   }
+
