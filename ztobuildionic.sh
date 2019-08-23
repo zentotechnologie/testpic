@@ -8,6 +8,7 @@
  export GRADLE_HOME=./gradle/
  export GRADLE_USER_HOME=./gradle/
  export CLASSPATH=$CLASSPATH:$GRADLE_HOME/lib
+
  $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-28"
  yes | $ANDROID_HOME/bin/sdkmanager --licenses
 
@@ -16,6 +17,7 @@
 
   $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-27"
  yes | $ANDROID_HOME/bin/sdkmanager --licenses
+
 export PATH=$PATH:$ANDROID_HOME
 
  echo "npm install"
@@ -26,6 +28,9 @@ export PATH=$PATH:$ANDROID_HOME
 
  echo "npm install ionic"
  npm install ionic
+
+ echo "INSTALL CORDOVA RES"
+ npm i cordova-res
 
 
 
