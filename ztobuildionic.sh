@@ -6,7 +6,7 @@
  export ANDROID_SDK_ROOT="./androidjdk/tools"
  export PATH=$PATH:./gradle/bin
  export GRADLE_HOME=./gradle/
- export GRADLE_USER_HOME=./gradle/
+ export GRADLE_USER_HOME=./gradle
 
  echo "CLASSPATH ="
  echo $CLASSPATH
