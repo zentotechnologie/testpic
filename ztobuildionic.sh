@@ -3,7 +3,7 @@
  java -version
  echo "Setup ANDROID_HOME"
  export ANDROID_HOME="./androidjdk/tools"
- $ANDROID_HOME/bin/sdkmanager --licenses --install "platforms;android-28"
+ $ANDROID_HOME/bin/sdkmanager --install --licenses  "platforms;android-28"
 
  #echo "npm install"
  #npm install
