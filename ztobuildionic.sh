@@ -3,7 +3,7 @@
  java -version
  echo "Setup ANDROID_HOME"
  export ANDROID_HOME="./androidjdk/tools"
- export PATH=$PATH:./androidgraddle/graddle
+ export PATH=$PATH:./gradle/bin
  $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-28"
 yes | $ANDROID_HOME/bin/sdkmanager --licenses
 
