@@ -16,19 +16,6 @@
                         java -version
 
 			# Override Gradle PATH
-                        #echo "export PATH=$PATH:$PWD/gradle-4.10.3/bin"
-                        #export PATH=$PATH:$PWD/gradle-4.10.3/bin
-
-                        #echo "export GRADLE_HOME=$PWD/gradle-4.10.3/bin"
-                        #export GRADLE_HOME=$PWD/gradle-4.10.3/bin
-
-                        #echo "export ANDROID_SDK_ROOT=$ANDROID_HOME"
-                        #export ANDROID_SDK_ROOT=$ANDROID_HOME
-
-
-                        #echo "export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
-                        #export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
-
                         echo "npm install ionic@3.20.0 cordova@8.0.0"
                         npm install ionic@3.20.0 cordova@8.0.0
 
@@ -76,3 +63,6 @@
                     deleteDir()
                 }
             }
+
+
+
