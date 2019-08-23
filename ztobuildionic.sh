@@ -36,6 +36,8 @@ npm run ionic info
 echo "npm run ionic cordova platform add android@8.0.0"
 npm run ionic cordova platform add android@8.0.0 --debug --verbose
 
+npm run ionic cordova resources
+
 echo "npm run ionic cordova requirements --debug --verbose"
 npm run ionic cordova requirements --debug --verbose
 
