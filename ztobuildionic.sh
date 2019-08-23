@@ -32,3 +32,6 @@ echo "npm run ionic cordova platform add android@8.0.0"
 
 echo "npm run ionic cordova requirements --debug --verbose"
 npm run ionic cordova requirements --debug --verbose
+
+ echo "npm run ionic cordova build android --prod --debug --verbose"
+ npm run ionic cordova build android --prod --debug --verbose
