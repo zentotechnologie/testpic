@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
  echo "java -version"
  java -version
+ echo "Setup ANDROID_HOME"
+ export ANDROID_HOME="./androidjdk/tools"
+ android --help --no-ui
 
  echo "npm install"
  npm install
