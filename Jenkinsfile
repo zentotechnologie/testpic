@@ -1,10 +1,9 @@
 
  stage('Init') {
-		    from starter template
-                    deleteDir()
+		           deleteDir()
                 }
                 stage('Checkout') {
 		            checkout scm
                 }
-
+}
 
