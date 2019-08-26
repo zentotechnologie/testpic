@@ -16,3 +16,31 @@ unzip gradle-4.10.2-bin.zip
 
 
 
+ $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-28"
+ yes | $ANDROID_HOME/bin/sdkmanager --licenses
+
+ $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-26"
+ yes | $ANDROID_HOME/bin/sdkmanager --licenses
+
+  $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-27"
+ yes | $ANDROID_HOME/bin/sdkmanager --licenses
+
+export PATH=$PATH:$ANDROID_HOME
+
+ echo "npm install"
+ npm install
+
+  echo "npm install cordova"
+ npm install cordova
+
+ echo "npm install ionic"
+ npm install ionic
+
+ echo "INSTALL CORDOVA RES"
+ npm i cordova-res
+
+
+
+
+echo "npm run ionic info"
+npm run ionic info
