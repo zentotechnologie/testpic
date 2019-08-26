@@ -4,6 +4,8 @@
  echo "Setup ANDROID_HOME"
  export ANDROID_HOME="./androidjdk/tools"
  export ANDROID_SDK_ROOT="./androidjdk/tools"
+ $ANDROID_HOME/bin/sdkmanager --install  "build-tools;26.0.1"
+
 wget "https://services.gradle.org/distributions/gradle-4.10.2-bin.zip"
 unzip gradle-4.10.2-bin.zip
 
@@ -14,5 +16,5 @@ unzip gradle-4.10.2-bin.zip
  echo "GRADLE VERSION"
  gradle -v
 
-$ANDROID_HOME/bin/sdkmanager --install  "build-tools;26.0.1"
+
 
