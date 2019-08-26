@@ -14,19 +14,19 @@ unzip gradle-4.10.2-bin.zip
  echo "GRADLE VERSION"
  gradle -v
 
-$ANDROID_HOME/bin/sdkmanager --install  "build-tools;26.0.1"
- yes | $ANDROID_HOME/bin/sdkmanager --licenses
+$ANDROID_HOME/tools/bin/sdkmanager --install  "build-tools;26.0.1"
+ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 
-$ANDROID_HOME/bin/sdkmanager --install   "platforms;android-28"
- yes | $ANDROID_HOME/bin/sdkmanager --licenses
+$ANDROID_HOME/tools/bin/sdkmanager --install   "platforms;android-28"
+ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 
- $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-26"
- yes | $ANDROID_HOME/bin/sdkmanager --licenses
+ $ANDROID_HOME/tools/bin/sdkmanager --install   "platforms;android-26"
+ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 
-  $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-27"
- yes | $ANDROID_HOME/bin/sdkmanager --licenses
+  $ANDROID_HOME/tools/bin/sdkmanager --install   "platforms;android-27"
+ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 
-export PATH=$PATH:$ANDROID_HOME:/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/platforms
+export PATH=$PATH:$ANDROID_HOME/tools:/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/platforms
 echo $PATH
 
  echo "npm install"
