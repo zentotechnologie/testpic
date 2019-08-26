@@ -17,3 +17,5 @@
 $ANDROID_HOME/bin/sdkmanager --install  "build-tools;26.0.1"
  yes | $ANDROID_HOME/bin/sdkmanager --licenses
 
+export PATH=$PATH:$ANDROID_HOME:./androidjdk/platforms
+echo $PATH
