@@ -2,8 +2,8 @@
  echo "java -version"
  java -version
  echo "Setup ANDROID_HOME"
- export ANDROID_HOME="/var/lib/jenkins/workspace/androidjdk/tools"
- export ANDROID_SDK_ROOT="/var/lib/jenkins/workspace/androidjdk/tools"
+ export ANDROID_HOME="/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/tools"
+ export ANDROID_SDK_ROOT="/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/tools"
 wget "https://services.gradle.org/distributions/gradle-4.10.2-bin.zip"
 unzip gradle-4.10.2-bin.zip
 
@@ -26,7 +26,7 @@ $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-28"
   $ANDROID_HOME/bin/sdkmanager --install   "platforms;android-27"
  yes | $ANDROID_HOME/bin/sdkmanager --licenses
 
-export PATH=$PATH:$ANDROID_HOME:/var/lib/jenkins/workspace/androidjdk/platforms
+export PATH=$PATH:$ANDROID_HOME:/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/platforms
 echo $PATH
 
  echo "npm install"
