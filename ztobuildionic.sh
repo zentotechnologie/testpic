@@ -2,8 +2,8 @@
  echo "java -version"
  java -version
  echo "Setup ANDROID_HOME"
- export ANDROID_HOME="/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/tools"
- export ANDROID_SDK_ROOT="/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/tools"
+ export ANDROID_HOME="/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/"
+ export ANDROID_SDK_ROOT="/var/lib/jenkins/workspace/readjenkinsfile/androidjdk/"
 wget "https://services.gradle.org/distributions/gradle-4.10.2-bin.zip"
 unzip gradle-4.10.2-bin.zip
 
